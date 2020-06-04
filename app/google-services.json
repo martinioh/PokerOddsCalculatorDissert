@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "603344671818",
+    "firebase_url": "https://poker-odds-calculator-23135.firebaseio.com",
+    "project_id": "poker-odds-calculator-23135",
+    "storage_bucket": "poker-odds-calculator-23135.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603344671818:android:2034af8e745baa3b",
+        "android_client_info": {
+          "package_name": "com.example.pokeroddscalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603344671818-sl48ov7gtkjbjmhdljuf3sf29lo3aljr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pokeroddscalculator",
+            "certificate_hash": "dc179d2f0a97cc232ffe9b3dd59259e075f722c0"
+          }
+        },
+        {
+          "client_id": "603344671818-uv86dq0cfr6ivi0ce9jk0lb78loqp18g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ28dSsANpbf0k22AwjzWBesH-Xtt6bQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603344671818-uv86dq0cfr6ivi0ce9jk0lb78loqp18g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

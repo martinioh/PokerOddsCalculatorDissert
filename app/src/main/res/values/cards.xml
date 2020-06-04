@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cards">
+        <item>As</item>
+        <item>2s</item>
+        <item>3s</item>
+        <item>4s</item>
+        <item>5s</item>
+        <item>6s</item>
+        <item>7s</item>
+        <item>8s</item>
+        <item>9s</item>
+        <item>10s</item>
+        <item>Js</item>
+        <item>Qs</item>
+        <item>Ks</item>
+        <item>Ah</item>
+        <item>2h</item>
+        <item>3h</item>
+        <item>4h</item>
+        <item>5h</item>
+        <item>6h</item>
+        <item>7h</item>
+        <item>8h</item>
+        <item>9h</item>
+        <item>10h</item>
+        <item>Jh</item>
+        <item>Qh</item>
+        <item>Kh</item>
+        <item>Ac</item>
+        <item>2c</item>
+        <item>3c</item>
+        <item>4c</item>
+        <item>5c</item>
+        <item>6c</item>
+        <item>7c</item>
+        <item>8c</item>
+        <item>9c</item>
+        <item>10c</item>
+        <item>Jc</item>
+        <item>Qc</item>
+        <item>Kc</item>
+        <item>Ad</item>
+        <item>2d</item>
+        <item>3d</item>
+        <item>4d</item>
+        <item>5d</item>
+        <item>6d</item>
+        <item>7d</item>
+        <item>8d</item>
+        <item>9d</item>
+        <item>10d</item>
+        <item>Jd</item>
+        <item>Qd</item>
+        <item>Kd</item>
+    </string-array>
+</resources>

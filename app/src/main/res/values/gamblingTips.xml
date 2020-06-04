@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gambling_tips">
+        <item>Don\'t ever spend more money or time than you can afford on gambling.</item>
+        <item>If you lose interest in usual activities or hobbies because of gambling, seek help.</item>
+        <item>Never aim to chase losses or huge wins, if this is the case please seek help at begambleaware.org</item>
+        <item>Does gambling make you feel anxious, worried, guilty, depressed or irritable? Seek help at begambleaware.org</item>
+        <item>Do you feel you need to gamble with larger amounts of money to get the same feeling of buzz? You may need help, seek it at begambleaware.org</item>
+        <item>Do you go to extreme methods to find money to gamble? Seek help.</item>
+        <item>Do you find that you\'re tempted in every day life to gamble? You may have a problem. Please seek help at begambleaware.org</item>
+        <item>Poker originated and was developed in Louisiana, USA.</item>
+        <item>The 52 card deck was not introduced to Poker until 1834, with the game being played with only 20 cards prior to this.</item>
+        <item>On Aug 2, 1876, Wild Bill Hickok was shot and killed during a poker game. The hand he was holding was allegedly Ac, As, 8c, 8s, forever known as the dead man\'s hand. </item>
+        <item>You are 6% likely to be dealt a pocket pair in a game of Texas Hold\'em.</item>
+        <item>Having a suited hand only improves your odds of winning a hand by 2.5%</item>
+        <item>The chance of one of your hole cards making a pair on the flop is 32.43%</item>
+        <item>The chance of flopping a flush with two suited hole cards is only 0.8%</item>
+        <item>When two pairs go all in before the flop, the bigger pair will win 80% of the time.</item>
+    </string-array>
+</resources>

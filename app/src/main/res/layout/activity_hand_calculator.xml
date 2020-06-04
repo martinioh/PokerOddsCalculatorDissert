@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".HandCalculatorActivity">
+
+
+    <TextView
+        android:id="@+id/handoutput"
+        android:layout_width="346dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="128dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backtohome5"
+        android:layout_width="134dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_pressed"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clearvalues"
+        android:layout_width="134dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_pressed"
+        android:text="Clear"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/selectcard"
+        android:layout_width="186dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="444dp"
+        android:background="#FFFFFF"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/herocaption"
+        android:layout_width="95dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="564dp"
+        android:gravity="center"
+        android:text="Hero"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/villaincaption"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="564dp"
+        android:gravity="center"
+        android:text="Villain"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/handcalculatortoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2e2e2e"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <ImageView
+        android:id="@+id/backgroundhero"
+        android:layout_width="198dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="212dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/villaincard2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293"
+        app:srcCompat="@drawable/backofherocards" />
+
+    <ImageView
+        android:id="@+id/backgroundcommunity"
+        android:layout_width="402dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backofcommunitycards" />
+
+    <ImageView
+        android:id="@+id/backgroundvillain"
+        android:layout_width="198dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/villaincard2"
+        app:layout_constraintStart_toEndOf="@+id/herocard2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293"
+        app:srcCompat="@drawable/backofvillaincards" />
+
+    <ImageView
+        android:id="@+id/villaincard1"
+        android:layout_width="104dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.697"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backofcard" />
+
+
+    <ImageView
+        android:id="@+id/villaincard2"
+        android:layout_width="104dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backofcard" />
+
+
+    <ImageView
+        android:id="@+id/communitycard1"
+        android:layout_width="104dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="316dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backofcard" />
+
+    <ImageView
+        android:id="@+id/communitycard2"
+        android:layout_width="104dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="316dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="@+id/communitycard1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backofcard" />
+
+    <ImageView
+        android:id="@+id/communitycard3"
+        android:layout_width="104dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="316dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/communitycard1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backofcard" />
+
+    <ImageView
+        android:id="@+id/communitycard4"
+        android:layout_width="104dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="316dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintStart_toStartOf="@+id/communitycard1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backofcard" />
+
+    <ImageView
+        android:id="@+id/communitycard5"
+        android:layout_width="104dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="316dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/communitycard1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backofcard" />
+
+
+
+    <ImageView
+        android:id="@+id/herocard1"
+        android:clickable="true"
+        android:layout_width="104dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backofcard" />
+
+    <ImageView
+        android:id="@+id/herocard2"
+        android:layout_width="104dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backofcard" />
+
+
+</android.support.constraint.ConstraintLayout>

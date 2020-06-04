@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Poker Odds Calculator</string>
+    <string name="title_activity_set_limits">Set Limits</string>
+</resources>

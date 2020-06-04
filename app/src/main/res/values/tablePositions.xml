@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="table_positions">
+        <item>UTG</item>
+        <item>UTG+1</item>
+        <item>UTG+2</item>
+        <item>UTG+3</item>
+        <item>Lojack</item>
+        <item>Hijack</item>
+        <item>Cutoff</item>
+        <item>Button</item>
+        <item>Small Blind</item>
+    </string-array>
+</resources>
